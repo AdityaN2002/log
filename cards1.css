@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/sunset.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100dvh;
+}
+h1{
+    color: white;
+    
+
+}
+p{
+    color: aquamarine;
+    
+
+}
+
+#cards{
+    
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    
+
+
+}
+#cont{
+    margin: 30px;
+    padding: 50px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.866),rgba(255, 0, 0, 0.838));
+    display: flex;
+    width: 80%;
+    border: 6px solid white;
+    border-radius: 15px;
+    justify-content: space-between;
+    
+    
+
+}
+#cont div{
+    width: 25%;
+    text-align: center;
+    background-color: rgba(25, 25, 112, 0.348);
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 10px 0px;
+    
+    
+ 
+}
+
+
+#cont div img{
+    width: 50%;
+    height: 150px;
+    border: 8px outset gold;
+   
+    border-radius: 100%;
+    opacity: 60%;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    
+    
+   
+    
+    
+}
+
+#cont div img:hover{
+  
+  border: none;
+    opacity: 1;
+    transform: scale(2) rotatey(360deg)  translatey(-30px);
+ 
+    
+    transition: all 1.5s;
+    
+    
+    
+}
+
+#cont div h1{
+    text-align: center;
+    text-decoration: underline 2px yellow;
+    text-underline-offset: 8px;
+}
+
+#cont div p{
+    text-align: center;
+}
+
+.cards1{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgb(27, 70, 135);
+    
+    outline: 2px solid white;
+   
+    
+  
+    
+}
+
+#cont div div{
+    background-color: rgba(139, 0, 139, 0.574);
+    color: aliceblue;
+ 
+    
+}
+#cont div div:hover{
+    background-color: darkmagenta;
+  
+ 
+    
+}
+a{
+    color: yellow;
+}
