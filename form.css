@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'REM', sans-serif;
+
+    background-color: black;
+    background-image: linear-gradient(gray,black,black,gray);
+    color: aliceblue;
+}
+
+main{
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+main form{
+    width: 30%;
+    background-color: rgba(198, 12, 12, 0.563);
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    position: relative;
+  
+    
+}
+
+label,#user,#pass{
+    display: block;
+}
+
+label{
+  
+    font-size: 30px;
+}
+
+#user,#pass{
+    width: 90%;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    margin: 20px 0px;
+    padding-left: 30px;
+    color: darkgreen;
+    
+}
+
+main form #but{
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    width: 20%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0px;
+    background-color: yellow;
+   
+}
+
+button:hover{
+    background-color: mediumseagreen;
+    color: black;
+}
+a{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    color: darkturquoise;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+#user::placeholder{
+    color: darkslateblue;
+}
+
+#pass::placeholder{
+    color: darkslateblue;
+}
+
+/* i{
+    
+    font-size: 80px;
+
+} */
+
+
+
+.fa-regular.fa-face-laugh-beam{
+    color: yellow;
+    font-size: 50px;
+}
+
+section{
+    display:flex;
+    justify-content: center;
+}
+
+
+#cuser{
+    position: relative;
+}
+.fa-solid.fa-address-card{
+    position: absolute;
+    top: 75%;
+    left: 2%;
+    color: black;
+}
+#cpass{
+    position: relative;
+}
+.fa-solid.fa-key{
+
+    position: absolute;
+    top: 51.5%;
+    left: 2%;
+    color: black;
+}
